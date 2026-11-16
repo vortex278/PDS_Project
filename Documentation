@@ -1,0 +1,24 @@
+#Import Information about Project
+
+##Column Name Definitions
+* Report Number: The specific ID of the accident
+* Event Date: The date of the accident
+* City: Where the accident occured (city)
+* State: Where the accident occured (state)
+* Airport: If the accident occured during take off or landing, this identifies the airport in which it occured
+* Event Type:
+* Aircraft Damage: The amount of damage that the plane took during the accident
+* Flight Phase: The phase of flight in which the accident occured, e.g. take off, landing, manuver, cruise, etc.
+* Aircraft Make: The manufacturer, brand, or company that made the aircraft in the accident
+* Aircraft Model: Specific product line, design, or series created by a manufacturer
+* Operator Code: The company or person operating the aircraft
+* Flight Conduct Code:
+* Aircraft Registration Number: Number that identifies a specific airplane
+* Total Fatalities: The amount of people killed in the accident
+* Total Injuries: The amount of people injured in the accident
+* Engine Make: The brand, company, or manufacturer of the engine
+* Engine Model: The specific design or series of engines created by the manufacturer
+* Engine Group Code:
+* PIC Certification Type:
+
+##Accident vs. Incident Definition
