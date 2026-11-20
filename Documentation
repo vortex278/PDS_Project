@@ -22,3 +22,11 @@
 * PIC Certification Type:
 
 ##Accident vs. Incident Definition
+
+Aircraft accident: an occurrence associated with the operation of an aircraft which takes place between the time any person boards the aircraft with the intention of flight and all such persons have disembarked, and in which any person suffers death or serious injury, or in which the aircraft receives substantial damage
+
+Incident: an occurrence other than an accident, associated with the operation of an aircraft, which affects or could affect the safety of operations.
+
+## Machine-learning implementation
+
+The notebook trains three classifiers for each of three outcome targets: Random Forest, Logistic Regression, and K-Nearest Neighbors. A compact two-fold `StratifiedGroupKFold` search selects parameters using training-partition macro F1; grouped held-out test data is reserved for final evaluation. Custom criteria can then be passed through all three fitted classifiers for side-by-side comparison.
